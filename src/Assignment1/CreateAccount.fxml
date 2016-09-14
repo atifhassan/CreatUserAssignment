@@ -215,7 +215,7 @@
                         <Label text="Profile Photo:"  textFill="DARKGRAY" underline="true" />
                         <HBox GridPane.rowIndex="1" spacing="-5" >
                             <children>
-                                <TextField fx:id="photoField" />
+                                <TextField fx:id="photoField" editable="false"/>
                                 <Button fx:id="openDialog" onAction="#fileChoose" text="Browse"/>
                             </children>
                         </HBox>
