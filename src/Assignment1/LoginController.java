@@ -1,4 +1,6 @@
 //Controller for Login window
+//Atif Hassan 
+//CSC 202
 package Assignment1;
 
 import java.io.File;

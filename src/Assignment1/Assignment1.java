@@ -1,5 +1,7 @@
 /*
 main class
+Atif Hassan
+CSC 202
 */
 package Assignment1;
 

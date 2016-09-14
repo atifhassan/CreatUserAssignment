@@ -1,4 +1,6 @@
 /*
+Atif Hassan
+CSC 202
 Controller for Welcome FXML
 */
 package Assignment1;

@@ -1,4 +1,6 @@
 //User class does all of the writing
+//Atif Hassan
+//CSC 202
 package classes;
 
 import java.io.IOException;

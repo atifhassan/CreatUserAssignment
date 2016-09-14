@@ -1,4 +1,6 @@
 //Simple class to set and get info
+//Atif Hassan
+//CSC 202
 package classes;
 
 /**

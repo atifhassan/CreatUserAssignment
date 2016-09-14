@@ -1,5 +1,7 @@
 /*
 Controller for Create Account FXML
+Atif Hassan
+CSC 202
 */
 package Assignment1;
 
