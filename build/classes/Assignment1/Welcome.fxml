@@ -6,13 +6,14 @@
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 
-<StackPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" >
+<StackPane maxHeight="-Infinity" fx:controller="Assignment1.WelcomeController" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" >
     <children>
-        <javafx.scene.image.ImageView fitHeight="400.0" fitWidth="600.0"  >
+        <javafx.scene.image.ImageView fitHeight="400" fitWidth="600.0">
             <image>
                 <javafx.scene.image.Image url="Images/bliss.jpg"/>
             </image>
         </javafx.scene.image.ImageView> 
-         <Label text="WELCOME!" scaleX="10" scaleY="10" textFill="WHITE"/> 
+        <Label text="WELCOME!" translateY="-100" scaleX="10" scaleY="10" textFill="WHITE"/>
+        <Button text="Log Out" fx:id="logoutButton" translateY="50"  scaleX="5" scaleY="5"  onAction="#LogOut"/>
     </children>
 </StackPane>
