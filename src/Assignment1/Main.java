@@ -15,12 +15,12 @@ import javafx.stage.Stage;
  *
  * @author atifm
  */
-public class Assignment1 extends Application {
+public class Main extends Application {
     
     @Override
     public void start(Stage stage) throws Exception {
         //creates login window
-        Parent root = FXMLLoader.load(getClass().getResource("Login.fxml"));
+        Parent root = FXMLLoader.load(getClass().getResource("Views/Login.fxml"));
         stage.setTitle("Login");
         stage.centerOnScreen();
         Scene scene = new Scene(root);

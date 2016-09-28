@@ -35,7 +35,7 @@ public class WelcomeController implements Initializable {
         Stage createAccount = (Stage) logoutButton.getScene().getWindow();
         Parent root = null;
         try {
-            root = FXMLLoader.load(getClass().getResource("Login.fxml"));
+            root = FXMLLoader.load(getClass().getResource("Views/Login.fxml"));
         } catch (IOException ex) {
             Logger.getLogger(LoginController.class.getName()).log(Level.SEVERE, null, ex);
         }

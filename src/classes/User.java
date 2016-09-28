@@ -11,7 +11,7 @@ import java.time.LocalDate;
  *
  * @author atifm
  */
-public class User extends Person {
+public final class User extends Person {
 
     private String username;
     private String email;
@@ -26,20 +26,19 @@ public class User extends Person {
     }
 
     //writes to final when new user created
-    //there are two files, one for just usernames, and one will all the rest of the data
+    //there are two files, one for just only usernames, and one will all the of the data
     public User(String firstName, String lastName, String ssn, LocalDate dob, String gender, String username, String email, String phone, String photo, String password) {
         one = new Person(firstName, lastName, ssn, dob, gender);
         try {
            out = new PrintWriter("databases/userList.txt");
            
         } catch (IOException e) {
-            e.printStackTrace();
         }
+        
         try {
            out2 = new PrintWriter("databases/userNameList.txt");
            
         } catch (IOException e) {
-            e.printStackTrace();
         }
         setUsername(username);
         setPassword(password);

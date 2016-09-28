@@ -95,7 +95,7 @@ public class CreateAccountController implements Initializable {
         Stage createAccount = (Stage) cancel.getScene().getWindow();
         Parent root = null;
         try {
-            root = FXMLLoader.load(getClass().getResource("Login.fxml"));
+            root = FXMLLoader.load(getClass().getResource("Views/Login.fxml"));
         } catch (IOException ex) {
             Logger.getLogger(LoginController.class.getName()).log(Level.SEVERE, null, ex);
         }
@@ -165,7 +165,7 @@ public class CreateAccountController implements Initializable {
                                         
                                         Parent root = null;
                                         try {
-                                            root = FXMLLoader.load(getClass().getResource("Login.fxml"));
+                                            root = FXMLLoader.load(getClass().getResource("Views/Login.fxml"));
                                         } catch (IOException ex) {
                                             Logger.getLogger(LoginController.class.getName()).log(Level.SEVERE, null, ex);
                                         }
